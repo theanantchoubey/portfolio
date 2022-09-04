@@ -1,5 +1,10 @@
-# myCV
-This is my CV website made up of pure HTML.
-I created this website in order to revise concepts of HTML and practice it.
-From a long time I wanted to have a website with pure HTML code and here it is , this CV website had 100% of it's code as HTML5.
-I have used just basic HTML code in the initial version of this website and however I will add more in the coming time.
+
+Project Name: myCV [Portfolio Website]
+About: This is my portfolio website created using pure HTML5 for practicing the concepts of tables and forms, this CV website had 100% of it's code as HTML5.
+Technologies Used: HTML5 Only
+Date of Creation: 04/09/2022
+
+
+Click on the image to watch the Video :
+[![Watch the video](images/website.png)](https://youtu.be/4t9RvD_0OKo)
+
