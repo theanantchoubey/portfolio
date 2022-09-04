@@ -6,5 +6,5 @@ Date of Creation: 04/09/2022
 
 
 Click on the image to watch the Video :
-[![Watch the video](images/website.png)](https://youtu.be/4t9RvD_0OKo)
+[![Watch the video](Images/website.png)](https://youtu.be/4t9RvD_0OKo)
 
