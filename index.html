@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -6,158 +5,242 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Anant's Personal Site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="/images/anant.png">
+    <title>Anant's Portfolio</title>
 </head>
 
 <body>
-    <center>
-       
-    <button>
-    <a href="contact.html">Contact Me</a></button>
-    <hr>
-   
-    <img src="Images/anant.png" alt="Anant DP">
+    <navbar class="nav-container">
+        <nav class="navbar">
+            <ul class="nav-list">
 
-    <h1>Anant Choubey</h1>
+                <li class="nav-item">
+                    About
+                </li>
+                <li class="nav-item">
+                    Projects
+                </li>
+                <li class="nav-item">
+                    Coding Profiles
+                </li>
 
-    <h3><em>Full Stack <strong>Web Developer
-            </strong>.</em></h3>
+                <li class="nav-item">
+                    Education
+                </li>
 
-    
-    <p>Hello there! I am a Self taught full Stack Website Developer and I develop Websites using MERN Stack Framework. I love to code and I also know other Javascript framework like EJS, jQuery, etc.
-        This is one of my project I have created in order to practice HTML and to build a CV purely based on HTML.
-        Here I am available to code for you, if you want to have some healthy discussion and do some Projects with me, make sure to contact me using the button at the bottom.
-    </p>
+            </ul>
+        </nav>
+    </navbar>
+    <div class="container">
+        <section class="about">
+            <div class="img-container">
 
-    <hr>
-    <h2>My Education</h2>
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Year</th>
-                <th>Class</th>
-                <th>School/College</th>
-                <th>Score</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>2021-23</td>
-                <td>B.com</td>
-                <td>Jiwaji University</td>
-                <td>-</td>
-            </tr>
-            <tr>
-                <td>2020-21</td>
-                <td>Class 12th (Commerce)</td>
-                <td>Rass-JB Public School, Datia(M.P.)</td>
-                <td>92.2%</td>
-            </tr>
-            <tr>
-                <td>2018-19</td>
-                <td>Class 10th </td>
-                <td>Kendriya Vidyalaya, Datia (M.P.)</td>
-                <td>9.2 CGPA</td>
-            </tr>
-          
-        </tbody>
-        <tfoot>
+                <img class="profilePic" src="images/dp.png" alt="Anant DP">
+            </div>
+            <div class="about-container">
 
-        </tfoot>
+                <h1>Hello👋🏻, I'm Anant Choubey</h1>
 
-    </table>
-    <hr>
+                <h3>MERN Stack Developer | Leetcode & GFG - 350+ </h3>
 
-    <h2>Certifications and Courses</h2>
 
- 
-        <li><a target="_blank" href="https://drive.google.com/file/d/1BW66Ivral9Pap0SGEDmmWEKfyev2Uyhf/view?usp=sharing">Internet Fundamentals</a></li>
-        <li><a target="_blank" href="https://drive.google.com/file/d/1TxilXR7RLTFvjjn2G-Z10tgwXtD3DqXS/view?usp=sharing">Front End Development - HTML Course</a></li>
-        <li><a target="_blank" href="https://drive.google.com/file/d/1EKEp4OY3944Z_iaq5vqUq08kd7qpjp8I/view?usp=sharing">Software Testing</a></li>
-    
-    <hr>
-    <h2>My Projects</h2>
+                <p>Hello there! I am a Self taught full Stack Website Developer and I develop Websites using <b>MERN
+                        Stack
+                        Framework</b>.
+                    <br /> I love to code and I also know other Javascript framework like <b>EJS, jQuery,</b> etc.
+                    <br />
+                    <br />
+                <ul class="about-list">
+                    <li class="about-item">
+                        🌱 I am Currently Learning - Full Stack Development
+                    </li>
+                    <li class="about-item">
+                        💻 I am Currently Working on Project Management System
+                    </li>
+                    <li class="about-item">
+                        🤝 I am open for collaboration & opportunities.
+                    </li>
+                    <li class="about-item">
+                        👨🏻‍💻 I am practicing DSA using C++
+                    </li>
+                </ul>
+                <br />
+                <ul class="social-icons-list">
+                    <li class="social-icon-item"><a href="https://github.com/theanantchoubey" target="_blank">Github</a>
+                    </li>
+                    <li class="social-icon-item"><a href="https://www.linkedin.com/in/theanantchoubey/"
+                            target="_blank">LinkedIn</a></li>
+                    <li class="social-icon-item"><a href="https://twitter.com/theanantchoubey"
+                            target="_blank">Twitter</a></li>
+                    <li class="social-icon-item"><a href="https://www.youtube.com/@theanantchoubey"
+                            target="_blank">YoutUbe</a></li>
+                </ul>
+                </p>
+            </div>
+        </section>
+        <section class="project">
 
-    <table cellspacing="10">
-        <thead>
-            <tr>
-                <th>Technology</th>
-                <th>Project</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Bootstrap5 </td>
-                <td><a href=""> Coded</a></td>
-            </tr>
-            <tr>
-                <td>HTML5 </td>
-                <td><a href=""> Portfolio Website</a></td>
-            </tr>
-        </tbody>
-        <tfoot>
+            <h1>My Projects</h1>
 
-        </tfoot>
+            <div class="projects-container">
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="/images/stocksDekho.png" alt="project" />
+                    </div>
+                    <div class="about-project">
+                        <h2>Stocks Dekho</h2>
+                        <ul>
+                            <li><b>Features:</b> Read Financial News, Check Stocks and Cryptocurrencies Prices, Search
+                                Mechanism, etc.</li>
+                            <li>Developed a <b>Real-time</b> stock analytics web app, rendering real-time stock prices with per
+                                day/month high and low.</li>
+                            <li>Integrated <b>Alpha Vantage API</b>, a third party API to render Stocks data using Axios also
+                                <b>CoinGecko API</b> for
+                                rendering Cryptocurrencies data</li>
+                            <li>Used <b>React Hooks</b> for state management i.e., useState and manage Side Effects i.e.,
+                                useEffect, etc.</li>
+                                <li>Built single page Web App with <b>React Router</b>, and created reusable <b>React Components</b></li> 
+                          <!--   <li>Used Material UI framework for styling and Chart.JS to render the data in graphically
+                                representable format.</li>-->
+                        </ul>
+                    </div>
+                    <div class="project-icons">
+                        <ul class="project-icons-list">
+                            <li class="project-icon-item">
+                                <a href="https://github.com/theanantchoubey/stocksDekho" target="_blank">GitHub</a>
+                            </li>
+                            <li class="project-icon-item">
+                                <a href="https://stocksdekho.netlify.app/" target="_blank">Live</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card mid-card">
+                    <div class="project-img-container">
+                        <img src="/images/reviewScrapper.png" alt="project" />
+                    </div>
+                    <div class="about-project">
+                        <h2>Review Scrapper</h2>
+                        <ul>
+                            <li><b>Features:</b> Review Analysis, Products Comparison, Intra Site Products Comparison, etc.
+                            </li>
+                            <li>Created a product review scrapper, scrapping data from popular websites like <b>Amazon</b> and
+                               <b>Flipkart</b>.</li>
+                            <li>Used <b>Request NPM package</b> to fetch data from sites and <b>Cheerio</b> to handle HTML.</li>
+                            <li>Built <b>RESTful API</b> using <b>Express.js</b> framework for <b>Node.js</b>, handling get and post
+                                requests.</li>
+                          <li>Designed database models and architecture to store recently Analyzed data in MongoDB -
+                                NoSQL database.</li>
+                            <!--   <li>Designed and developed a responsive cross-platform web application, enabling smooth
+                                navigation across screens and
+                                state management using React.JS (with Material UI framework).</li>-->
+                            <li>Deployed frontend on <b>Netlify</b> and API on <b>Render</b></li> 
+                        </ul>
+                    </div>
+                    <div class="project-icons">
+                        <ul class="project-icons-list">
+                            <li class="project-icon-item">
+                                <a href="https://github.com/theanantchoubey/reviewScrapper" target="_blank">GitHub</a>
+                            </li>
+                            <li class="project-icon-item">
+                                <a href="https://reviewscrapper.netlify.app/" target="_blank">Live</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <div class="project-img-container">
+                        <img src="/images//codersCommunity.png" alt="project" />
+                    </div>
+                    <div class="about-project">
+                        <h2>Coders Community</h2>
+                        <ul>
+                            <li>
+                                <b>Features: </b>Ask Coding Questions - get doubts resolved, Add Answers and comment on questions, etc.
+                            </li>
+                            <li>Created a full-stack web app enabling Create and Read operations to add questions, comments, and answers.</li>
+                            <li>Integrated <b>Firebase Authentication</b>, authenticating users through Email and Google, <b>(oAuth)</b>.</li>
+                           <li>Built <b>RESTful API</b> using <b>Express.JS</b> framework for <b>Node.JS</b> facilitating efficient request handling.</li>
+                            <!--  <li>Used MongoDB database (with MongoDB compass) to store user’s data and for data manipulation.</li>-->
+                            <li>Used <b>React Hooks</b> for State Management, Side Effects, etc., <b>Axios</b> for <b>API integration</b>. and <b>React Routers</b> for
+                                smooth navigation.</li> 
+                        </ul>
+                    </div>
+                    <div class="project-icons">
+                        <ul class="project-icons-list">
+                            <li class="project-icon-item">
+                                <a href="https://github.com/theanantchoubey/codersCommunity" target="_blank">GitHub</a>
+                            </li>
+                            <li class="project-icon-item">
+                                <a href="https://coderscommunity.netlify.app/" target="_blank">Live</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="skill">
+            <h1>My Skills</h1>
+            <div class="skills-container">
+                <ul class="skills-list">
+                    <li class="skill-item">
+                        <b>Programming Languages: </b> Javascript, C++
+                    </li>
+                    <li class="skill-item">
+                        <b>Front-End: </b> React.JS, Redux, Material UI
+                    </li>
+                    <li class="skill-item">
+                        <b>Back-End: </b> NodeJs, ExpressJs
+                    </li>
+                    <li class="skill-item">
+                        <b>Databases: </b> MongoDB
+                    </li>
+                    <li class="skill-item">
+                        <b>Tools and Frameworks: </b> Git, Github, Postman, MongoDB Compass, etc.
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <section class="coding-profiles">
+            <h1>My Coding Profiles</h1>
+            <div class="coding-profiles-container">
+                <div class="coding-profile">
+                    <div class="coding-platform-icon"></div>
+                    <h3><a href="https://leetcode.com/anantchoubey/" target="_blank">Leetcode: 240+ Problems </a></h3>
+                </div>
+                <div class="coding-profile mid-card">
+                    <div class="coding-platform-icon"></div>
+                    <h3><a href="https://auth.geeksforgeeks.org/user/anantchoubey/" target="_blank">GeeksForGeeks: 320+
+                            Problems</a></h3>
+                </div>
+                <div class="coding-profile">
+                    <div class="coding-platform-icon"></div>
+                    <h3><a href="https://www.codingninjas.com/studio/profile/anantchoubey" target="_blank">CodeStudio:
+                            300+ Problems</a></h3>
+                </div>
+            </div>
+        </section>
+        <section class="education">
+            <h1>My Education</h1>
+            <div class="education-container">
+                <div class="college-logo">
+                    <img src="/images//collegeLogo.jpeg" alt="college-logo" class="college-logo-img" />
+                </div>
+                <div class="about-edu">
+                    <h2>Bachelor of Commerce</h2>
+                    <p class="college-name"><a href="http://www.jiwaji.edu/" target="_blank">Jiwaji University</a></p>
+                    <span class="year">2021-Present</span>
+                </div>
+            </div>
+        </section>
+        <!-- 
+            <button>
+            <a href="contact.html">Contact Me</a></button>
 
-    </table>
-    <hr>
-    <h2>My Skills</h2>
-    <table cellspacing="10">
-        <td>
-            <table>
-            <tr>
-                <td>HTML</td>
-                <td>⭐⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>CSS</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>JavaScript</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Node JS</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>Express JS</td>
-                <td>⭐⭐⭐⭐</td>
-            </tr>
-            </table>
-        </td>
-        <td>
-            <table>
-            
-            <tr>
-                <td>Mongo DB</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>React JS</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>EJS</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            <tr>
-                <td>jQuery</td>
-                <td>⭐⭐⭐</td>
-            </tr>
-            </table>
-        </td>
-        
-
-    </table>
-
-    
-    
-    <hr>
-    
-    <p>Copyright Ⓒ anantchoubey 2022</p>
-</center>
+        <p>Copyright Ⓒ anantchoubey 2022</p> -->
+        <!-- </center> -->
+    </div>
 </body>
 
 </html>
