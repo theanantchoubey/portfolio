@@ -1,10 +1,6 @@
 
-Project Name: myCV [Portfolio Website]
-About: This is my portfolio website created using pure HTML5 for practicing the concepts of tables and forms, this CV website had 100% of it's code as HTML5.
-Technologies Used: HTML5 Only
-Date of Creation: 27/08/2022
+## My Portfolio
+<br>
 
-
-Click on the image to watch the Video :
-[![Watch the video](Images/website.png)](https://youtu.be/4t9RvD_0OKo)
+[![Watch the video](images/readme-view.png)](https://youtu.be/4t9RvD_0OKo)
 
